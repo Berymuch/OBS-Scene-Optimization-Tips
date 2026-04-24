@@ -38,7 +38,7 @@ I also dove into some encoder settings to see if I could lessen my GPU load even
 To start READ THIS WEBPAGE:
 https://ffmpeg.party/guides/x264/
 
-1. First and foremost, set your encoder to x264. This uses your CPU for rendering/encoding your stream. If you have a beastly or half decent CPU it will have more than enough headroom to soak up the processing hit. Both Nvidia and AMD offer hardware-based encoders but chances are that you won't be wanting to sacrifice GPU performance while gaming to encode your stream.
+1. First and foremost, set your encoder to x264. This uses your CPU for rendering/encoding your stream. If you have a beastly or half decent CPU it will have more than enough headroom to soak up the processing hit. Both Nvidia and AMD offer hardware-based encoders but chances are that you won't be wanting to sacrifice GPU performance while gaming to encode your stream. Do note however that NVidia's hardware encoder runs on a seperate chip on your GPU- using it should not affect overall graphical performance.
 
 2. CRF is a rate control method that works by instead of setting a specific bitrate, you set a target quality level, and the encoder adjusts the bitrate accordingly. A lower CRF value indicates a higher quality but larger file size, while a higher CRF value results in lower quality but smaller file size. CRF is particularly useful when you prioritize maintaining consistent visual quality throughout the video rather than targeting a specific bitrate. It allows for efficient bitrate allocation, ensuring that more complex scenes receive higher bitrates while less complex scenes are allocated fewer bits. See attached photos for recommended settings based on your streaming resolution
 
