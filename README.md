@@ -31,7 +31,7 @@
 
 14. It's okay to scale sources up, but scaling them down if they're too large wastes performance. Make sure the native resolution of .jpeg/.png/movie/browser/etc. sources in OBS are the exact dimensions you plan to use them at.
 
-15. If you are using a USB-C monitor, consider finding a different solution while streaming. I noticed that plugging mine in caused a 5% GPU spike on the "Desktop Windows Manager" when observing it in task manager just by virtue of being active.
+15. If you are using a USB-C monitor, consider finding a different solution while streaming. I noticed that plugging mine in caused a 5% GPU spike on the "Desktop Windows Manager" process when observing it in task manager just by virtue of being active.
 
 Track your progress while you tweak by having Task Manager up and watching OBS's GPU%. Doing all of those things above let me go from using around 60%+ of my resources for my basic streaming setup (OBS/Vnyan/Firefox/Streamerbot/Stream Avatars/Discord/recording VOD while live at 2k60fps) with no game running, down to ~15% with massive improvements to stability and reduction to OBS load times. With my single PC I'm now using less power, producing less heat, have a stable/fast OBS environment, and have more processing headroom ^^!
 
