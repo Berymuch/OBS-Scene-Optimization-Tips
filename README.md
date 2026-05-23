@@ -31,6 +31,8 @@
 
 14. It's okay to scale sources up, but scaling them down if they're too large wastes performance. Make sure the native resolution of .jpeg/.png/movie/browser/etc. sources in OBS are the exact dimensions you plan to use them at.
 
+15. If you are using a USB-C monitor, consider finding a different solution while streaming. I noticed that plugging mine in caused a 5% GPU spike on the "Desktop Windows Manager" when observing it in task manager just by virtue of being active.
+
 Track your progress while you tweak by having Task Manager up and watching OBS's GPU%. Doing all of those things above let me go from using around 60%+ of my resources for my basic streaming setup (OBS/Vnyan/Firefox/Streamerbot/Stream Avatars/Discord/recording VOD while live at 2k60fps) with no game running, down to ~15% with massive improvements to stability and reduction to OBS load times. With my single PC I'm now using less power, producing less heat, have a stable/fast OBS environment, and have more processing headroom ^^!
 
 I also dove into some encoder settings to see if I could lessen my GPU load even further, reduce the file size of my recordings, and take more advantage of my CPU while streaming! These settings moved 30-40% of the processing load for encoding off my GPU and on to my CPU which is ideal since my CPU was running at a passive 10% prior. Now, they run at parity with a 30% GPU load reduction while live.
